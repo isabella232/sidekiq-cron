@@ -9,13 +9,10 @@ rvm:
   - rbx-19mode
 services:
   - redis-server
-branches:
-  only:
-    - master
 notifications:
   email:
     recipients:
-      - ondrej@bartas.cz
+      - andrew@codetree.com
 env:
   travis: 'yes'
 matrix:
